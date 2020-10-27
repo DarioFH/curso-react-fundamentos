@@ -1,6 +1,7 @@
 import './App.css'
 import React from 'react'
 
+import ListaProd from './components/repeticao/TabelaProdutos'
 import ListaAlunos from './components/repeticao/ListaAlunos'
 import Aleatorio from './components/basico/Aleatorio'
 import ComParametro from './components/basico/ComParametro'
@@ -17,6 +18,10 @@ export default props => {
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
+
+                <Card titulo="#07 - Desafio Lista de Produtos" color="#518"> 
+                    <ListaProd />
+                </Card>
 
                 <Card titulo="#06 - Lista de Alunos" color="#852">
                     <ListaAlunos />

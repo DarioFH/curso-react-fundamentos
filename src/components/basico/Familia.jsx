@@ -4,8 +4,8 @@ export default (props) => {
     return (
         <div>
             {
-               props.children.map((filu,i) => {
-                   return cloneElement(filu, {...props, key:i})
+               props.children.map((child,i) => {
+                   return cloneElement(child, {...props, key:i})
                })
             }
         </div>
