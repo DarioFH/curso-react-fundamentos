@@ -1,6 +1,9 @@
 import './App.css'
 import React from 'react'
 
+
+import UsuarioInfo from './components/condicional/UsuarioInfo'
+import ParOuImpar from './components/condicional/ParOuImpar'
 import ListaProd from './components/repeticao/TabelaProdutos'
 import ListaAlunos from './components/repeticao/ListaAlunos'
 import Aleatorio from './components/basico/Aleatorio'
@@ -18,6 +21,16 @@ export default props => {
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
+
+
+                <Card titulo="#08 - Renderização condicional" color="#33F0FF">
+                    <ParOuImpar numero={21}></ParOuImpar>
+
+                    <UsuarioInfo usuario={{}}/>
+                    
+                    {/* <UsuarioInfo usuario={{email: "aqui tem um email"}}/> */}
+
+                </Card>
 
                 <Card titulo="#07 - Desafio Lista de Produtos" color="#518"> 
                     <ListaProd />
