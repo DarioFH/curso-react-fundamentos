@@ -1,6 +1,6 @@
 import React from 'react'
 
-const getRandom = (min, max) => {
+export const getRandom = (min, max) => {
     return Math.floor(Math.random() * (max - min) + min);
 }
 
