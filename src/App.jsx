@@ -2,6 +2,8 @@ import './App.css'
 import React from 'react'
 
 
+import Mega from './components/mega/Mega'
+import ContadorUnico from './components/contador/ContadorUnico'
 import Contador from './components/contador/Contador'
 import Input from './components/formulario/Input'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
@@ -26,6 +28,13 @@ export default props => {
 
             <div className="Cards">
 
+                <Card titulo="#14 - Desafio Gerar números da mega sena" color="#28B463">
+                    <Mega />
+                </Card>
+
+                <Card titulo="#13 - Contador" color="#CCC">
+                    <ContadorUnico numeroInicial={10}/>
+                </Card>
 
                 <Card titulo="#12 - Contador" color="#CCC">
                     <Contador numeroInicial={5}/>
