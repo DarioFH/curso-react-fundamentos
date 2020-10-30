@@ -1,8 +1,8 @@
 import './App.css'
 import React from 'react'
 
-
 import Mega from './components/mega/Mega'
+import MegaSozinho from './components/mega/MegaSozinho'
 import ContadorUnico from './components/contador/ContadorUnico'
 import Contador from './components/contador/Contador'
 import Input from './components/formulario/Input'
@@ -28,8 +28,12 @@ export default props => {
 
             <div className="Cards">
 
-                <Card titulo="#14 - Desafio Gerar números da mega sena" color="#28B463">
+                <Card titulo='#15 - Desafio Gerar múmeros da mega sena (leitão)' color="#724">
                     <Mega />
+                </Card>
+
+                <Card titulo="#14 - Desafio Gerar números da mega sena" color="#28B463">
+                    <MegaSozinho />
                 </Card>
 
                 <Card titulo="#13 - Contador" color="#CCC">
