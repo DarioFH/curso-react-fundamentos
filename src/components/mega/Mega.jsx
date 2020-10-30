@@ -47,7 +47,6 @@ class Mega extends Component {
                 dezTrat.push(String(num))
             }
         })
-        console.log(dezTrat)
 
         dezTrat = dezTrat.join(' - ')
         this.setState({
